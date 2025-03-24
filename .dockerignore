@@ -1,0 +1,81 @@
+# .dockerignore
+
+# Version control
+.git/
+.gitignore
+.gitmodules
+.dvc/
+
+# Local data and cache
+data/raw/
+data/processed/
+.dvc/
+.venv/
+venv/
+env/
+.env*
+
+# IDE specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+*.pyd
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Local secrets
+secrets.yaml
+credentials.*
+*.key
+*.pem
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Large files
+*.zip
+*.tar
+*.gz
+*.bam
+*.sam
+*.vcf
+
+# Documentation
+docs/
+*.pdf
+*.tex
+
+# Test files
+tests/
+test.py
+
+# Docker related files (except core files)
+docker-compose.override.yml
+docker-compose.prod.yml
+Dockerfile.backup
+
+# Unnecessary system files
+**/__MACOSX/

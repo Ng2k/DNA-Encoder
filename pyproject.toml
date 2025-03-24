@@ -1,0 +1,11 @@
+[tool.commitizen.customize]
+message_template = "{type}({scope}): {subject}"
+example = """
+feat(dna): add new encoder
+fix(preprocessing): handle empty sequences
+"""
+allowed_types = [
+    "feat", "fix", "docs", "style", 
+    "refactor", "test", "chore", "perf"
+]
+allowed_scopes = ["encoders", "models", "data", "ci", "utils"]
