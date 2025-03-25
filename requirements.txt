@@ -15,3 +15,10 @@ biopython==1.81
 plotly==5.18.0
 
 commitizen
+
+ydata-profiling==4.15.1
+mygene==3.2.2
+pandera==0.23.1
+pytest
+pytest-cov
+pyarrow==19.0.1
