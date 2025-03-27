@@ -1,6 +1,6 @@
 # Core
 numpy==1.26.0
-pandas==2.1.1
+pandas==2.2.3
 scikit-learn==1.3.0
 matplotlib==3.7.1
 seaborn==0.12.2
@@ -16,7 +16,7 @@ plotly==5.18.0
 
 commitizen
 
-ydata-profiling==4.15.1
+ydata-profiling==4.16.1
 mygene==3.2.2
 pandera==0.23.1
 pytest
